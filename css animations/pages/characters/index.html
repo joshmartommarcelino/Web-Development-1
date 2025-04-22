@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilty Gear - Characters</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="characters.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/gg-logo.png" alt="Guilty Gear Logo" class="logo">
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/css animations/pages/characters/index.html" class="active">Characters</a></li>
+                <li><a href="mechanics.html">Game Mechanics</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+        </nav>
+        <button id="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="banner-content">
+                <h1>MEET THE FIGHTERS</h1>
+                <p>Explore Guilty Gear's diverse roster of unique characters</p>
+            </div>
+        </section>
+
+        <section class="character-filter-section">
+            <div class="container">
+                <h2>CHARACTER ROSTER</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">All Characters</button>
+                    <button class="filter-btn" data-filter="strive">Strive</button>
+                    <button class="filter-btn" data-filter="xrd">Xrd</button>
+                    <button class="filter-btn" data-filter="xx">XX/+R</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="character-grid-section">
+            <div class="container">
+                <div class="character-grid">
+                    <!-- Sol Badguy -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/sol.jpg" alt="Sol Badguy">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="sol">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Sol Badguy</h3>
+                            <p>The Flame of Corruption</p>
+                        </div>
+                    </div>
+
+                    <!-- Ky Kiske -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/ky.jpg" alt="Ky Kiske">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="ky">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Ky Kiske</h3>
+                            <p>The Pious Soldier</p>
+                        </div>
+                    </div>
+
+                    <!-- May -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/may.jpg" alt="May">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="may">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>May</h3>
+                            <p>The Innocent Buccaner</p>
+                        </div>
+                    </div>
+
+                    <!-- Zato-1 -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/zato.jpg" alt="Zato-1">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="zato">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Zato-1</h3>
+                            <p>The Shadowless Assassin</p>
+                        </div>
+                    </div>
+
+                    <!-- Millia Rage -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/millia.jpg" alt="Millia Rage">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="millia">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Millia Rage</h3>
+                            <p>The Iron Maiden</p>
+                        </div>
+                    </div>
+
+                    <!-- Chipp Zanuff -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/chipp.jpg" alt="Chipp Zanuff">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="chipp">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Chipp Zanuff</h3>
+                            <p>The Running Shadow</p>
+                        </div>
+                    </div>
+
+                    <!-- I-No -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/ino.jpg" alt="I-No">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="ino">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>I-No</h3>
+                            <p>The Crimson Minstrel</p>
+                        </div>
+                    </div>
+
+                    <!-- Faust -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/faust.jpg" alt="Faust">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="faust">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Faust</h3>
+                            <p>The Twisted Physician</p>
+                        </div>
+                    </div>
+
+                    <!-- Axl Low -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/axl.jpg" alt="Axl Low">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="axl">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Axl Low</h3>
+                            <p>The Time Traveler</p>
+                        </div>
+                    </div>
+
+                    <!-- Potemkin -->
+                    <div class="character-card" data-games="strive xrd xx">
+                        <div class="character-image">
+                            <img src="img/characters/potemkin.jpg" alt="Potemkin">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="potemkin">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Potemkin</h3>
+                            <p>The Gigantic Loyalty</p>
+                        </div>
+                    </div>
+
+                    <!-- Ramlethal Valentine -->
+                    <div class="character-card" data-games="strive xrd">
+                        <div class="character-image">
+                            <img src="img/characters/ramlethal.jpg" alt="Ramlethal Valentine">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="ramlethal">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Ramlethal Valentine</h3>
+                            <p>The Merciless Apocalypse</p>
+                        </div>
+                    </div>
+
+                    <!-- Leo Whitefang -->
+                    <div class="character-card" data-games="strive xrd">
+                        <div class="character-image">
+                            <img src="img/characters/leo.jpg" alt="Leo Whitefang">
+                            <div class="character-overlay">
+                                <button class="character-detail-btn" data-character="leo">View Details</button>
+                            </div>
+                        </div>
+                        <div class="character-name">
+                            <h3>Leo Whitefang</h3>
+                            <p>The Lion King</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-character-section">
+            <div class="container">
+                <h2>FEATURED CHARACTER</h2>
+                <div class="featured-character">
+                    <div class="featured-character-image">
+                        <img src="img/characters/sol-featured.jpg" alt="Sol Badguy">
+                    </div>
+                    <div class="featured-character-info">
+                        <h3>Sol Badguy</h3>
+                        <h4>The Flame of Corruption</h4>
+                        <p class="character-bio">
+                            The main protagonist of the Guilty Gear series, Sol Badguy is a bounty hunter who was once known as Frederick, a scientist who specialized in researching Gears. After being unwillingly converted into a Gear, he wages a personal war against That Man, the creator of the Gears. Sol's raw strength and determination make him one of the most powerful characters in the series.
+                        </p>
+                        <div class="character-stats">
+                            <div class="stat-group">
+                                <h5>Play Style</h5>
+                                <p>Rushdown / Balanced</p>
+                            </div>
+                            <div class="stat-group">
+                                <h5>Difficulty</h5>
+                                <div class="difficulty-meter">
+                                    <span class="filled"></span>
+                                    <span class="filled"></span>
+                                    <span class="filled"></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="stat-group">
+                                <h5>Weapon</h5>
+                                <p>Fireseal/Junkyard Dog MKIII</p>
+                            </div>
+                        </div>
+                        <div class="signature-moves">
+                            <h5>Signature Moves</h5>
+                            <ul>
+                                <li><strong>Gun Flame:</strong> Sol fires a wave of flames across the ground</li>
+                                <li><strong>Volcanic Viper:</strong> A rising uppercut engulfed in flames</li>
+                                <li><strong>Bandit Revolver:</strong> A spinning kick that can be followed up</li>
+                                <li><strong>Tyrant Rave:</strong> A powerful punch charged with explosive energy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Character Detail Modal -->
+    <div class="character-modal">
+        <div class="modal-content">
+            <!-- Content will be dynamically inserted here -->
+        </div>
+        <button class="close-btn">&times;</button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">zz
+                <img src="img/gg-small-logo.png" alt="Guilty Gear Logo">
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="mechanics.html">Game Mechanics</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="community.html">Community</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Guilty Gear</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/discord.svg" alt="Discord">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/youtube.svg" alt="YouTube">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/twitch.svg" alt="Twitch">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Guilty Gear Fan Site. This is a student project. All game content belongs to Arc System Works.</p>
+        </div>
+    </footer>
+
+    <script src="js/characters.js"></script>
+</body>
+</html>
